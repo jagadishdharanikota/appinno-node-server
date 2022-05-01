@@ -2,6 +2,33 @@
 username: jagadish
 password: dj
 
+## --------------------------------------------------------------------------
+
+## .env file entries
+
+NODE_ENV=development
+PORT=8000
+
+SESSION_SECRET='cats'
+# SESSION_COOKIE_NAME='connect.sid'
+
+ACCESS_TOKEN_SECRET=''
+REFRESH_TOKEN_SECRET=''
+
+MONGODB_URI=mongodb://localhost:27017/appinno
+MONGODB_USERNAME=appUser
+MONGODB_PASSWORD=password
+
+# Use the following URI for docker based service
+# MONGODB_URI=mongodb://host.docker.internal:27017/appinno
+
+MYSQLDB_URI='test'
+
+STATIC_CONTENT_SERVER_URL='http://localhost:3000/'
+REST_API_BASE_URL='http://localhost:9000/'
+
+## --------------------------------------------------------------------------
+
 ## **Running the application** ##
 
 1. Running the application in local
